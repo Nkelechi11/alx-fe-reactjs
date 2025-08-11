@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Spaghetti Carbonara",
+    "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
+    "image": "https://images.pexels.com/photos/769969/pexels-photo-769969.jpeg"
+  },
+  {
+    "id": 2,
+    "title": "Chicken Tikka Masala",
+    "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
+    "image": "https://images.pexels.com/photos/262905/pexels-photo-262905.jpeg"
+  },
+   {
+    "id": 3,
+    "title": "Beef Stroganoff",
+    "summary": "A Russian-inspired dish featuring tender beef strips cooked in a rich mushroom and sour cream sauce.",
+    "image": "https://images.pexels.com/photos/14737/pexels-photo.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Pad Thai",
+    "summary": "A flavorful Thai stir-fried noodle dish with shrimp, tofu, peanuts, bean sprouts, and tamarind sauce.",
+    "image": "https://images.pexels.com/photos/1527603/pexels-photo-1527603.jpeg"
+  },
+    {
+    "id": 5,
+     "title": "Miso Ramen",
+    "summary": "A Japanese noodle soup with a savory miso-based broth, topped with pork, egg, seaweed, and vegetables.",
+    "image": "https://images.pexels.com/photos/725997/pexels-photo-725997.jpeg"
+  },
+    {
+    "id": 6,
+    "title": "Shakshuka",
+    "summary": "A North African and Middle Eastern dish of poached eggs in a spicy tomato and pepper sauce.",
+     "image": "https://images.pexels.com/photos/1087904/pexels-photo-1087904.jpeg"
+  }
+]
