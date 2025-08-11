@@ -1,13 +1,20 @@
 import { useState } from 'react'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css'
 import HomePage from './components/HomePage'
+import RecipeDetail from './components/recipeDetail';
 
 function App() {
   return (
     <>
-       <h1 className="text-3xl font-bold underline text-blue-500">
-      Hello world!
-    </h1>
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/recipe/:id" element={<RecipeDetail />} />
+        </Routes>
+      </Router>
+    
+       
     <HomePage />
     </>
   )

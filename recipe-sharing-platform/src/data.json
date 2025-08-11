@@ -3,36 +3,161 @@
     "id": 1,
     "title": "Spaghetti Carbonara",
     "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
-    "image": "https://images.pexels.com/photos/769969/pexels-photo-769969.jpeg"
+    "image": "https://images.pexels.com/photos/769969/pexels-photo-769969.jpeg",
+    "ingredients": [
+      "200g spaghetti",
+      "100g pancetta or bacon",
+      "2 large eggs",
+      "50g grated Parmesan cheese",
+      "2 cloves garlic (optional)",
+      "Salt and black pepper to taste"
+    ],
+    "instructions": [
+      "Cook spaghetti in salted boiling water until al dente. Reserve 1/2 cup pasta water.",
+      "Fry pancetta in a pan until crispy. Add garlic if using, then remove garlic once fragrant.",
+      "In a bowl, whisk eggs with Parmesan cheese and a good amount of black pepper.",
+      "Drain spaghetti and add to the pan with pancetta. Remove from heat.",
+      "Quickly stir in the egg and cheese mixture, tossing until creamy. Add pasta water if needed.",
+      "Serve immediately with extra cheese and pepper."
+    ]
   },
   {
     "id": 2,
     "title": "Chicken Tikka Masala",
     "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
-    "image": "https://images.pexels.com/photos/262905/pexels-photo-262905.jpeg"
+    "image": "https://images.pexels.com/photos/262905/pexels-photo-262905.jpeg",
+    "ingredients": [
+      "500g chicken breast or thighs",
+      "1/2 cup yogurt",
+      "2 tbsp lemon juice",
+      "2 tsp garam masala",
+      "1 tsp turmeric",
+      "1 tsp cumin",
+      "2 tsp paprika",
+      "2 tbsp oil or ghee",
+      "1 onion, chopped",
+      "3 cloves garlic, minced",
+      "1 tbsp grated ginger",
+      "400g canned tomatoes",
+      "1/2 cup heavy cream",
+      "Salt to taste"
+    ],
+    "instructions": [
+      "Marinate chicken in yogurt, lemon juice, and spices for at least 1 hour.",
+      "Grill or pan-fry chicken until cooked through. Set aside.",
+      "In a pan, heat oil and sauté onions until golden. Add garlic and ginger.",
+      "Add tomatoes and cook for 10 minutes. Blend the sauce if smoother texture is desired.",
+      "Stir in cream and return chicken to the pan. Simmer for 10 minutes.",
+      "Serve hot with rice or naan."
+    ]
   },
-   {
+  {
     "id": 3,
     "title": "Beef Stroganoff",
     "summary": "A Russian-inspired dish featuring tender beef strips cooked in a rich mushroom and sour cream sauce.",
-    "image": "https://images.pexels.com/photos/14737/pexels-photo.jpg"
+    "image": "https://images.pexels.com/photos/14737/pexels-photo.jpg",
+    "ingredients": [
+      "500g beef sirloin, sliced into thin strips",
+      "2 tbsp flour",
+      "2 tbsp butter",
+      "1 onion, sliced",
+      "250g mushrooms, sliced",
+      "1 cup beef broth",
+      "1 tbsp Dijon mustard",
+      "3/4 cup sour cream",
+      "Salt and pepper to taste",
+      "Cooked egg noodles or rice for serving"
+    ],
+    "instructions": [
+      "Season and dust beef strips with flour.",
+      "In a large pan, brown beef quickly in butter. Remove and set aside.",
+      "Sauté onions and mushrooms in the same pan until soft.",
+      "Add beef broth and mustard, simmer for 5 minutes.",
+      "Return beef to the pan, stir in sour cream, and heat gently (do not boil).",
+      "Serve over egg noodles or rice."
+    ]
   },
   {
     "id": 4,
     "title": "Pad Thai",
     "summary": "A flavorful Thai stir-fried noodle dish with shrimp, tofu, peanuts, bean sprouts, and tamarind sauce.",
-    "image": "https://images.pexels.com/photos/1527603/pexels-photo-1527603.jpeg"
+    "image": "https://images.pexels.com/photos/1527603/pexels-photo-1527603.jpeg",
+    "ingredients": [
+      "200g rice noodles",
+      "150g shrimp (peeled and deveined)",
+      "100g firm tofu, cubed",
+      "2 eggs",
+      "2 tbsp fish sauce",
+      "1 tbsp tamarind paste",
+      "1 tbsp sugar",
+      "2 cloves garlic, minced",
+      "1 cup bean sprouts",
+      "1/4 cup crushed peanuts",
+      "2 green onions, sliced",
+      "Lime wedges for serving",
+      "Oil for frying"
+    ],
+    "instructions": [
+      "Soak rice noodles in warm water until soft, then drain.",
+      "Mix tamarind paste, fish sauce, and sugar to make sauce.",
+      "Heat oil in a wok, cook tofu until golden, then add shrimp.",
+      "Push ingredients to one side and scramble eggs in the pan.",
+      "Add noodles and sauce. Stir-fry everything together.",
+      "Toss in bean sprouts and green onions. Cook for 1 minute.",
+      "Serve with crushed peanuts and lime wedges."
+    ]
   },
-    {
+  {
     "id": 5,
-     "title": "Miso Ramen",
+    "title": "Miso Ramen",
     "summary": "A Japanese noodle soup with a savory miso-based broth, topped with pork, egg, seaweed, and vegetables.",
-    "image": "https://images.pexels.com/photos/725997/pexels-photo-725997.jpeg"
+    "image": "https://images.pexels.com/photos/725997/pexels-photo-725997.jpeg",
+    "ingredients": [
+      "200g ramen noodles",
+      "2 tbsp miso paste",
+      "4 cups chicken or vegetable broth",
+      "1 tbsp soy sauce",
+      "1 tsp sesame oil",
+      "1 clove garlic, minced",
+      "1 tsp grated ginger",
+      "100g sliced pork belly or chashu",
+      "1 boiled egg, halved",
+      "Nori (seaweed), corn, and green onions for topping"
+    ],
+    "instructions": [
+      "In a pot, heat sesame oil and sauté garlic and ginger.",
+      "Add broth, soy sauce, and miso paste. Stir until miso dissolves. Simmer for 10 minutes.",
+      "Cook ramen noodles separately according to package instructions.",
+      "Place cooked noodles in a bowl. Pour over the hot broth.",
+      "Top with pork slices, boiled egg, nori, corn, and green onions.",
+      "Serve immediately."
+    ]
   },
-    {
+  {
     "id": 6,
     "title": "Shakshuka",
     "summary": "A North African and Middle Eastern dish of poached eggs in a spicy tomato and pepper sauce.",
-     "image": "https://images.pexels.com/photos/1087904/pexels-photo-1087904.jpeg"
+    "image": "https://images.pexels.com/photos/1087904/pexels-photo-1087904.jpeg",
+    "ingredients": [
+      "2 tbsp olive oil",
+      "1 onion, chopped",
+      "1 red bell pepper, chopped",
+      "2 cloves garlic, minced",
+      "1 tsp ground cumin",
+      "1 tsp paprika",
+      "1/4 tsp chili flakes (optional)",
+      "400g canned tomatoes",
+      "4 eggs",
+      "Salt and pepper to taste",
+      "Fresh parsley or cilantro for garnish"
+    ],
+    "instructions": [
+      "Heat oil in a skillet. Sauté onion and bell pepper until soft.",
+      "Add garlic, cumin, paprika, and chili flakes. Cook for 1 minute.",
+      "Add tomatoes, salt, and pepper. Simmer for 10 minutes.",
+      "Make small wells in the sauce and crack eggs into each well.",
+      "Cover and cook until eggs are just set.",
+      "Garnish with parsley or cilantro. Serve with crusty bread."
+    ]
   }
 ]
