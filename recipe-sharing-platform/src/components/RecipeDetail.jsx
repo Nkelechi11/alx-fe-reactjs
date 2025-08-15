@@ -11,7 +11,7 @@ const RecipeDetail = () => {
     useEffect(() => {
         console.log('Looking for recipe with ID:' , id);
     const foundRecipe = recipeData.find(recipe => recipe.id === parseInt(id));
-    console.log('Founf recipe:', foundRecipe);
+    console.log('Found recipe:', foundRecipe);
     setRecipe(foundRecipe);
         }, [id]);
 
