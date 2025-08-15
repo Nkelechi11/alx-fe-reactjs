@@ -5,10 +5,13 @@ import recipeData from '../data.json'
 
 const RecipeDetail = () => {
     const {id} = useParams();
-    consst [recipe, setRecipe] = useState(null)
+    console.log('RecipeDetail loaded, ID:', id)
+    const [recipe, setRecipe] = useState(null)
     
     useEffect(() => {
+        console.log('Looking for recipe with ID:' , id);
     const foundRecipe = recipeData.find(recipe => recipe.id === parseInt(id));
+    console.log('Founf recipe:', foundRecipe);
     setRecipe(foundRecipe);
         }, [id]);
 

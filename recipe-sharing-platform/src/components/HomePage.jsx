@@ -1,9 +1,10 @@
-import { useEffect, useState } from "react"
+import React, { useEffect, useState } from "react"
 import recipeData from '../data.json'
-import { Link } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 
 const HomePage = () => {
     const [recipes, setRecipes] = useState([])
+    const navigate = useNavigate();
 
     useEffect(() => {
         setRecipes(recipeData);
@@ -13,8 +14,9 @@ const HomePage = () => {
     <div className="container mx-auto sm:px-6 lg:px-8 px-4 py-6 lg:py-12" >
         <div classsName="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap 4 md:gap-6">
             {recipes.map(recipe => (
-                <div className="bg-blue rounded-lg shadow-md overflow-hidden hover:shadow-lg hover:scale-105 transition-transform duration-300"> 
-             key={recipe.id} to={` /recipe/${recipe.id} `} 
+                <div className="bg-blue rounded-lg shadow-md overflow-hidden hover:shadow-lg hover:scale-105 transition-transform duration-300 block-cursor-pointer"> 
+                key={recipe.id} 
+                onClick = {() => navigate(`/recipe/${recipe.id} `)} 
                  <img
                         src={recipe.image}
                         alt= {recipe.title}
@@ -25,7 +27,6 @@ const HomePage = () => {
                         <p className="text-gray-600">{recipe.summary}</p>
                     </div>
                 </div>
-            
             ))}
         </div>
     </div>
